@@ -19,7 +19,7 @@ float compute(point p1,point p2)
 }
 void output(point p1,point p2,float d)
 {
-  printf("distance btw (%.2f,%.2f) and (%.2f,%.2f) is %.2f",p1.x,p1.y,p2.x,p2.y,d);
+  printf("distance btw (%.0f,%.0f) and (%.0f,%.0f) is %.2f",p1.x,p1.y,p2.x,p2.y,d);
 }
 int main()
 {

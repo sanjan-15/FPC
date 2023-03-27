@@ -1,8 +1,8 @@
 #include<stdio.h>
 int main()
 {
-   int i,j,n,sp,k;
-   printf("Enter no. of rows");
+   int i,j,n,sp,k,l=1;
+   printf("Enter no. of rows ");
    scanf("%d",&n);
    sp=n-1;
    for(i=1;i<=n;i++)
@@ -12,7 +12,7 @@ int main()
             printf(" ");
            }
         for(k=1;k<=i;k++)
-           {printf("* ");
+           {printf("*");
             }
         printf("\n");    
         sp--;

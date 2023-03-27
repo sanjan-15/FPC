@@ -6,7 +6,7 @@ int main()
     scanf("%d",&n);
     struct student
     {
-        char name[20];
+        char name[20]; 
         int roll;
         int age;
         int sem;
